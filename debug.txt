@@ -1,0 +1,15 @@
+Debugger Spezifikation:
+
+Eingabe ==> Aktion:
+
+Zeichen "s" ==> die nächste Instruktion auf die der Programm Counter zeigt wird ausgeführt.
+
+Zeichen "l" ==> liste alle Instruktionen des Programmes auf.
+
+Zeichen "r" ==> das Programm wird ausgehend vom derzeitigen Stand des Programm Counters ausgeführt. Der Debugger hält bei vorher gesetztem Breakpoint.
+
+Zeichen "i" ==> 2 Möglichkeiten: Mit der Zeichenkette "s" wird der aktuelle Stand des Stacks angezeigt. Mit der Zeichenkette "d" werden derzeitige golbale Variablen und deren Wert angezeigt.
+
+Zeichen "b" ==> Hier kann ein Breakpoint mit einer beliebigen Ganzzahl gesetzt werden. Der Breakpoint kann auch mit der Zahl -1 zurückgesetzt werden.
+
+Zeichen "q" ==> Der Debugger und das Programm wird sofort beendet.
